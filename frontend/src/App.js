@@ -1,37 +1,23 @@
 import './App.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
- import HomePage from './Pages/homepage';
- import AboutUs from './Pages/aboutus';
- import Products from './Pages/products';
- import ContactUs from './Pages/contactus';
 
-const router = createBrowserRouter([
-  
-  {
-    path: "/",
-    element: <HomePage/>
-  },
-  {
-    path: "/aboutus",
-    element: <AboutUs/>
-  },
-  {
-    path: "/products",
-    element: <Products/>
-  },
-  {
-    path: "/contactus",
-    element: <ContactUs/>
-  }
-]);
+import {BrowserRouter, Routes,Route} from "react-router-dom";
+import HomePage from './Pages/homepage';
+import AboutUs from './Pages/aboutus';
+import Products from './Pages/products';
+import ContactUs from './Pages/contactus';
 
-export default function App(){
+ export default function App(){
      return(
          <>
-            <RouterProvider router={router} />
+            <BrowserRouter basename="/platform-for-agri-company/settings/pages">
+                 <Routes>
+                       <Route path="/" element={<HomePage/>}/> 
+                       <Route path="/aboutus" element={<AboutUs/>}/> 
+                       <Route path="/products" element={<Products/>}/> 
+                       <Route path="/contactus" element={<ContactUs/>}/> 
+                 </Routes>
+            </BrowserRouter>
+
          </>
      );
 }
