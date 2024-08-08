@@ -1,1 +1,0 @@
-# platform-for-agri-company
