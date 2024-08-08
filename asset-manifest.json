@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/platform-for-agri-company/static/css/main.f855e6bc.css",
-    "main.js": "/platform-for-agri-company/static/js/main.453e73d9.js",
+    "main.js": "/platform-for-agri-company/static/js/main.714e6a1a.js",
     "static/js/453.8ab44547.chunk.js": "/platform-for-agri-company/static/js/453.8ab44547.chunk.js",
     "index.html": "/platform-for-agri-company/index.html",
     "main.f855e6bc.css.map": "/platform-for-agri-company/static/css/main.f855e6bc.css.map",
-    "main.453e73d9.js.map": "/platform-for-agri-company/static/js/main.453e73d9.js.map",
+    "main.714e6a1a.js.map": "/platform-for-agri-company/static/js/main.714e6a1a.js.map",
     "453.8ab44547.chunk.js.map": "/platform-for-agri-company/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.453e73d9.js"
+    "static/js/main.714e6a1a.js"
   ]
 }
