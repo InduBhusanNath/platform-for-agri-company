@@ -1,38 +1,483 @@
-.App {
-  text-align: center;
+.background-whitesmoke{
+  background-color: whitesmoke;
+}
+.background-ghostwhite{
+  background-color: ghostwhite;
+}
+.background-lightyellow{
+  background-color: lightyellow;
+}
+.background-azure{
+  background-color: azure;
+}
+.background-mintcream{
+  background-color: mintcream;
+}
+.background-lightgoldenrodyellow{
+  background-color: lightgoldenrodyellow;
+}
+.background-palegoldenrod{
+  background-color: palegoldenrod;
+}
+.background-aliceblue{
+  background-color: aliceblue;
+}
+.background-lemonchiffon{
+  background-color:lemonchiffon;
+}
+.background-beige{
+  background-color:beige;
+}
+.background-midnightblue{
+  background-color:midnightblue;
+}
+.background-powderblue{
+  background-color:powderblue;
+}
+.background-cornsilk{
+  background-color:cornsilk;
+}
+.background-skyblue{
+   background-color: skyblue;
+}
+.background-lavender{
+  background-color:lavender;
+}
+.background-khaki{
+  background-color:khaki;
+}
+.background-peachpuff{
+  background-color: peachpuff;
+}
+.background-blanchedalmond{
+   background-color: blanchedalmond;
+}
+.background-bisque{
+   background-color: bisque;
+}
+.background-lightskyblue{
+  background-color:lightskyblue;
+}
+.background-lightblue{
+  background-color: lightblue;
+}
+.background-honeydew{
+  background-color: honeydew;
+}
+.background-salmon{
+  background-color:salmon;
+}
+.background-lightsalmon{
+  background-color: lightsalmon;
+}
+.background-palegreen{
+  background-color: palegreen;
+}
+.background-springgreen{
+  background-color: springgreen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.color-gold{
+   color:gold;
+}
+.color-darkorange{
+   color:darkorange;
+}
+.color-black{
+   color:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.padding0{
+ padding:0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.padding5{
+  padding:5px;
+}
+.padding10{
+ padding:10px;
+}
+.padding15{
+  padding:15px;
+}
+.padding20{
+  padding:20px;
+}
+.padding25{
+  padding:25px;
+}
+.mobile_menu{
+ position:absolute;
+ z-index:10;
+ display:none;
+ top:0px;
+ left:0px;
+ width:100%;
+}
+.popup{
+  position:absolute;
+  /*display:none;*/
+  border:none;
+  border-radius:12px 12px 12px 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color:beige;
+  left:25%;
+  top:5px;
+  width:40%;
+  padding:15px;
+  z-index:15;
+}
+.dropdown{
+  position:absolute;
+  /*display:none;*/
+  border:none;
+  border-radius:12px 12px 12px 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color:beige;
+  left:0%;
+  top:5px;
+  width:auto;
+  padding:15px;
+  z-index:15;
 }
 
-.App-link {
-  color: #61dafb;
+.overflow_visible{
+  overflow: visible;
+}
+.height15{
+  height: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back_btn{
+  background-color:lavender;
+  color:darkred;
+  font-size:16px;
+  border-radius:8px 8px 8px 8px;
+  padding:5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-decoration:none;    
+  
 }
+.button{
+   border:none;
+   border-radius:8px 8px 8px 8px;
+   background-image: linear-gradient(to right,khaki,lightyellow);
+   color:black;
+   font-family:'Arial Narrow Bold', sans-serif;
+   font-weight:bold;
+   padding:5px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   cursor:pointer;
+  
+}
+.hide_btn{
+  background-color:lavender;
+  color:black;
+  font-size:14px;
+  border:1px solid red;
+  padding:1px;    
+  cursor:pointer;
+}
+.show_btn{
+   background-color:lavender;
+   color:black;
+   font-size:24px;
+   border:1px solid red;
+   padding:1px;    
+   cursor:pointer;
+
+}
+.collapse_button{
+   background-color:transparent;
+   width:100%;
+   text-align: left;
+   border:none;      
+       
+}
+.left_popup{
+  position:absolute;
+  display:none;
+  border:none;
+  border-radius:12px 12px 12px 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color:lavender;
+  left:65%;
+  top:1px;
+  width:35%;
+  padding:15px;
+  z-index:15;
+}
+.sidepanel{
+  border-radius:12px 12px 12px 12px;
+  background-color: whitesmoke;
+  padding:10px;
+  width:100%;
+}
+
+.action{
+   text-decoration:none;
+   cursor:pointer;
+   color:black;
+   font-weight: bold;       
+}
+.shown{
+  display: block;
+}
+.hidden{
+   display:none;
+}
+.content_object{
+  width:100%;
+  height:100%;
+}
+.whatsapp{
+   position:fixed;    
+   
+}
+.collapse_text2{
+   background-color: lightyellow;
+   padding:10px;
+}
+
+.collapsible{
+   background-color: transparent;
+   cursor: pointer;
+   padding:10px;
+   width:100%;
+   border:none;
+   text-align: left;
+}
+.active,.collapsible:hover{
+   background-color: transparent;
+}
+.collapsible:after{
+   content:'\002B';
+   color:black;
+   font-weight: bold;
+   float:right;
+
+}
+.active:after{
+   content: "\2212";
+}
+.collapsible_content{
+   padding: 15px;
+   border:1px solid black;
+   transition: max-height 0.2s ease-out;
+   background-color: transparent;
+
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.margin0{
+  margin:0px;
+}
+.font{
+  font-family:garamond;
+  color:black;
+}
+.font10{
+  font-size:10px;
+}
+.font12{
+  font-size:12px;
+}
+.font14{
+  font-size:14px;
+}
+.font16{
+  font-size:16px;
+}
+.font18{
+  font-size:18px;
+}
+.font20{
+  font-size:20px;
+}
+.font22{
+  font-size:22px;
+}
+.font24{
+  font-size:24px;
+}
+.font26{
+  font-size:26px;
+}
+.font28{
+  font-size:28px;
+}
+.font0{
+  font-size:0px;
+}
+
+h1{ 
+  font-family:garamond;
+  font-size:32px;
+  font-weight:bold;
+  /*text-align: center;*/
+  color:black;
+}
+h2{
+  font-family:garamond;
+  font-size:28px;
+  font-weight:bold;
+  /*text-align:left;*/
+  color:black;
+  /*text-shadow: 1px 1px 2px #000000;*/
+
+}
+h3{ 
+  font-family:garamond;
+  font-size:24px;
+  font-weight:bold;
+  /*text-align:left;*/
+  color:black;
+  /*text-shadow: 1px 1px 2px slategrey;*/
+}
+
+h4{ 
+  font-family:garamond;
+  font-size:20px;
+  font-weight:bold;
+  /*text-align:left;*/
+  color:black;
+  /*text-shadow: 2px 2px 4px slategrey;*/
+}
+h5{ 
+  font-family:garamond;
+  font-size:20px;
+  font-weight:bold;
+  /* text-align:center;*/
+  color:black;
+  /*text-shadow: 2px 2px 4px slategrey;*/
+}
+form{
+  width:100%;
+  padding:10px;
+}
+
+label{    
+  padding-top:5px;
+  font-family:garamond;
+  font-size:14px;
+  color:darkslategray;  
+  font-weight:bold; 
+}
+
+input[type=text]{
+  width:100%;
+  height:35px;
+  border:none;
+  display:block;
+  
+
+}
+input[type=email]{
+  width:100%;
+  height:35px;
+  border:none;
+  display:block;   
+
+}
+input[type=password]{
+  width:100%;
+  height:35px;
+  border:none;
+  display:block;   
+
+}
+input[type=file]{
+  width:100%;
+  height:35px;
+  border:none;
+  display:block;   
+
+}
+input[type=date]{
+  width:100%;
+  height:35px;
+  border:none;
+  display:block;   
+
+}
+input[type=radio]{    
+   border:none;   
+
+}
+textarea{
+  width:100%;
+  height:80px;
+  resize:none;
+  border:none;
+  
+}
+select{
+  width:100%;
+  height:35px;
+  border:none;
+}
+.submit{
+  font-weight: bold;
+  font-family: calibri;
+  display:block;
+  width:100%;
+  background-color:palegoldenrod;
+  color:black;
+  border:none;
+  border-radius:10px 10px 10px 10px;
+  cursor:pointer;
+  height:35px;
+  padding:0px;
+  z-index:5;
+  text-align:center;
+  font-size:16px;
+}
+.res{
+  color:red;
+}
+.getid{
+  display:block;
+}
+.getid1{
+  display: block;
+}
+.getid2{
+  display: block;
+}
+a{
+   text-decoration:none;
+}
+nav ul {
+  list-style:none;     
+  padding:0px;
+  margin:0px;
+  z-index:30;
+}
+nav ul li{
+  display: inline-block;
+  padding:10px;
+  position:relative;
+}
+nav ul li ul{
+  display:none;
+  position:absolute;
+  background-color: salmon;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav ul li ul li{
+  display: block; 
+  padding:10px;    
+}
+nav ul li:hover ul{
+  display:block;     
+}
+nav ul li ul li:hover{
+  background-color: lightsalmon;
+}
+    
+
+    

@@ -9,7 +9,7 @@ import ContactUs from './Pages/contactus';
  export default function App(){
      return(
          <>
-            <BrowserRouter basename="/platform-for-agri-company">
+            <BrowserRouter>
                  <Routes>
                        <Route path="/" element={<HomePage/>}/> 
                        <Route path="/aboutus" element={<AboutUs/>}/> 
